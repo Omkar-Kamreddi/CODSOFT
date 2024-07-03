@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <div class="header">
+      <div class="nav">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="middle">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="logo">
+        <ul>
+          <li><img src="/social.png" alt="Socialmedia" /></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <!-- home section -->
+      <div class="Home" id="home">
+        <div class="left">
+          <h1 id="hell">Hello</h1>
+          <h2 id="name">I'm Omkar Kamreddi</h2>
+          <h3 id="ui">Web Designer</h3>
+          <p>From India</p>
+          <input id="btn" type="button" value="View Profile" />
+        </div>
+
+        <div class="right">
+          <img src="/id.jpeg" alt="id photo" />
+        </div>
+      </div>
+
+      <!-- about section -->
+      <section class="About" id="about">
+        <h1 id="me">. . About Me . .</h1>
+        <div class="image">
+          <img src="/inshot.jpg" alt="id" />
+        </div>
+
+        <div class="content">
+          <h3 id="me">I am Omkar</h3>
+          <h4 id="full">Front-End Web Developer</h4>
+          <br />
+          <p id="para1">
+            Hello! I'm Omkar Kamreddi, a passionate Computer Science and
+            Engineering student with a strong interest in web design and
+            development. Currently, I am pursuing my degree at NBNSCOE, Solapur,
+            where I've been honing my skills in both front-end and back-end web
+            technologies.
+          </p>
+          <br />
+          <p id="para1">
+            From a young age, I've been fascinated by the digital world and its
+            endless possibilities. This curiosity led me to explore various
+            aspects of computer science, eventually finding my true calling in
+            web design. I love creating visually appealing and user-friendly
+            websites that provide an excellent user experience.
+          </p>
+        </div>
+      </section>
+
+      <!-- Skill Section -->
+      <section class="Skill" id="skill">
+        <h2>My technical skills include:</h2>
+        <br />
+        <h5><li>Front-end: HTML, CSS, JavaScript, React, Angular</li></h5>
+        <h5><li>Back-end: Node.js, Express, Django, PHP</li></h5>
+        <h5><li>Database: MySQL, MongoDB</li></h5>
+        <h5><li>Design Tools: Adobe Photoshop, Figma, Sketch</li></h5>
+        <br />
+      </section>
+
+      <h1 id="pro">My Project List</h1>
+      <!-- Project Section -->
+      <section class="Project" id="project">
+        <div class="parts">
+          <img style="width: 380px" src="/skin.png" alt="skin" />
+          <h3>Skin Detection uing Machine learning</h3>
+          <p>
+            The project seeks to demonstrate the potential of deep learning
+            models in dermatology and explore their integration into clinical
+            workflows for better diagnosis and patient care.
+          </p>
+        </div>
+
+        <div class="parts">
+          <img style="width: 380px" src="/student.png" alt="student" />
+          <h3>Student Management System</h3>
+          <p>
+            A Student Management System in Java is a project that enables
+            efficient management of student records, including adding, updating,
+            and deleting student information, using a database to store and
+            retrieve data. This project often involves a user interface, such as
+            a GUI or console application, to facilitate interactions with the
+            system.
+          </p>
+        </div>
+
+        <div class="parts">
+          <img style="width: 380px" src="/bill.png" alt="bill" />
+          <h3>Restaurant Billing System</h3>
+          <p>
+            A Student Management System using Android development allows users
+            to manage student records, including adding, updating, and deleting
+            information, through a mobile application interface. This project
+            typically integrates with a backend database to store data and
+            ensures accessibility and usability on mobile devices.
+          </p>
+        </div>
+      </section>
+
+      <!-- Resume Section -->
+      <section class="Resume" id="resume">
+        <h2>For more detail you can download my resume</h2>
+        <h2>by pressing below button..</h2>
+        <br /><br />
+        <a
+          href="https://drive.google.com/file/d/1QrL5wg8TdbKyb77E3X2YZIYXmYZ653HD/view?usp=drive_link"
+          ><button>Get Resume</button></a
+        >
+      </section>
+
+      <!-- Contact Me Section -->
+      <div class="detail">
+        <p id="d">Contact Detail's</p>
+        <br />
+        <p id="email"><b>Email :</b> omkarkamreddi.nbnscoe.comp@gmail.com</p>
+        <p id="place"><b>M/O :</b> +91-8080170577</p>
+        <p id="place"><b>Place :</b> Solapur, India - 413255</p>
+        <br />
+      </div>
+
+      <section class="Contact" id="contact">
+        <h2>Hello friends let's connect with me.</h2>
+
+        <div class="container">
+          <br /><br />
+          <label for="name"
+            >Name : <input id="b1" type="text" value="Full Name" required
+          /></label>
+          <br /><br />
+          <label for="email"
+            >Email : <input id="b1" type="email" value="Email Id" required
+          /></label>
+          <br /><br />
+          <label for="email"
+            >Contact : <input id="b1" type="number" required
+          /></label>
+          <br /><br />
+          <p>
+            Choose Gender :
+            <label for="gender">Male <input type="radio" id="gender" /></label>
+            <label for="gender"
+              >Female <input type="radio" id="gender"
+            /></label>
+          </p>
+          <br /><br />
+
+          <input id="btn2" type="button" value="Submit" />
+        </div>
+      </section>
+    </div>
+
+    <!-- footer section -->
+    <footer>
+      <h2>Omkar's Portfolio</h2>
+      <h4>Thank you for visiting my personal portfolio website.</h4>
+      <br />
+      <p>&copy; 2024 Omkar Kamreddi. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
